@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Contact extends StatefulWidget {
@@ -9,9 +8,11 @@ class Contact extends StatefulWidget {
 class _ContactState extends State<Contact> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
+    return Stack(
+      children: <Widget>[
+
+
+      ],
     );
   }
 }
-

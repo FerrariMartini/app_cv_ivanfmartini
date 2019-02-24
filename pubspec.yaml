@@ -1,5 +1,5 @@
 name: cv_ivan
-description: A new Flutter application.
+description: Ivan Martini Resume - app mobile.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -19,11 +19,13 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+
   sqflite: any
   path_provider: ^0.4.1
   intl: ^0.15.7
   url_launcher: ^5.0.1
   material_design_icons_flutter: ^3.1.3493
+  flutter_launcher_icons: "^0.7.0"
 
 dev_dependencies:
   flutter_test:
@@ -75,4 +77,4 @@ flutter_icons:
   android: true
   ios: true
   image_path_android: "assets/logoprog.png"
-  image_path_ios: "assets/logoprog.png"
+  image_path_ios: "assets/logoprog_ios.png"

@@ -29,8 +29,8 @@ class PresentationText {
           '\n\nNesse curto período já adquiri '
               'conhecimentos em desenvolvimento de algoritmos, lógica de '
               'programação, Python, Java, Dart/Flutter (mobile Android/iOS), '
-              'SQL (BD PostgreSQL), Github/Bitbucket (versionamento de código) e '
-              'metodologia ágil Scrum.\n'
+              'SQL (BD PostgreSQL), Github/Bitbucket (versionamento de código), '
+              'metodologia ágil Scrum e demais quesitos da Engenharia de Software.\n'
               '\nEm sequência segue meu currículo com minhas principais '
               'experiências, qualificações e contato para sua apreciação.'
           '\n\nGrato pelo seu tempo e atenção.\n',

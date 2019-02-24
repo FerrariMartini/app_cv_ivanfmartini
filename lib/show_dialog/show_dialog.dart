@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
+// Function to attend ResumeScreenButtons.
 void showResumeInfo(BuildContext context, String option) {
   switch (option) {
-// Objetivo Profissional Button
+    // Attend Objetivo Profissional Button
     case 'Goals':
       showDialog<void>(
         context: context,
@@ -36,7 +37,7 @@ void showResumeInfo(BuildContext context, String option) {
         },
       );
       break;
-// Qualidades Button
+    // Attend Qualidades Button
     case 'Quality':
       showDialog<void>(
         context: context,
@@ -56,9 +57,9 @@ void showResumeInfo(BuildContext context, String option) {
                   ),
                   Divider(),
                   ListTile(
-                    title: Text('Relacionamento interpessoal'),
+                    title: Text('Autogerenciável'),
                     leading: Icon(
-                      MdiIcons.batteryCharging70,
+                      MdiIcons.batteryCharging100,
                       color: Colors.amber,
                     ),
                   ),
@@ -66,7 +67,15 @@ void showResumeInfo(BuildContext context, String option) {
                   ListTile(
                     title: Text('Bom Comunicador'),
                     leading: Icon(
-                      MdiIcons.batteryCharging80,
+                      MdiIcons.batteryCharging70,
+                      color: Colors.amber,
+                    ),
+                  ),
+                  Divider(),
+                  ListTile(
+                    title: Text('Relacionamento interpessoal'),
+                    leading: Icon(
+                      MdiIcons.batteryCharging70,
                       color: Colors.amber,
                     ),
                   ),
@@ -94,6 +103,7 @@ void showResumeInfo(BuildContext context, String option) {
         },
       );
       break;
+//      Attend Formação e Cursos Button
     case 'Education':
       showDialog<void>(
         context: context,
@@ -150,6 +160,7 @@ void showResumeInfo(BuildContext context, String option) {
         },
       );
       break;
+//      Attend Habilidades Técnicas Button
     case 'Skill':
       showDialog<void>(
         context: context,
@@ -165,7 +176,8 @@ void showResumeInfo(BuildContext context, String option) {
                       textAlign: TextAlign.left,
                     ),
                     subtitle: Text('Linguagem Dart e Framework Flutter'),
-                    leading: Icon(MdiIcons.batteryCharging50, color: Colors.amber),
+                    leading:
+                        Icon(MdiIcons.batteryCharging40, color: Colors.amber),
                   ),
                   Divider(),
                   ListTile(
@@ -174,7 +186,16 @@ void showResumeInfo(BuildContext context, String option) {
                       textAlign: TextAlign.left,
                     ),
                     subtitle: Text('Linguagem SQL e BD PostgreSQL'),
-                    leading: Icon(MdiIcons.batteryCharging60, color: Colors.amber),
+                    leading:
+                        Icon(MdiIcons.batteryCharging40, color: Colors.amber),
+                  ),
+                  Divider(),
+                  ListTile(
+                    title: Text('Engenharia de Software, Ágil e Controle',
+                        textAlign: TextAlign.left),
+                    subtitle: Text('Scrum, Waterfall, Github/Bitbucket'),
+                    leading:
+                        Icon(MdiIcons.batteryCharging40, color: Colors.amber),
                   ),
                   Divider(),
                   ListTile(
@@ -182,10 +203,20 @@ void showResumeInfo(BuildContext context, String option) {
                       'Web',
                       textAlign: TextAlign.left,
                     ),
-                    subtitle: Text('HTML, CSS, '),
-                    leading: Icon(MdiIcons.batteryChargingWireless20, color: Colors.amber),
+                    subtitle: Text('HTML, CSS, JavaScript, JQuery, Bootstrap'),
+                    leading:
+                        Icon(MdiIcons.batteryCharging10, color: Colors.amber),
                   ),
                   Divider(),
+                  ListTile(
+                    title: Text(
+                      'Outras Linguagens',
+                      textAlign: TextAlign.left,
+                    ),
+                    subtitle: Text('Python, Java'),
+                    leading:
+                        Icon(MdiIcons.batteryCharging40, color: Colors.amber),
+                  ),
                 ],
               ),
             ),
@@ -201,7 +232,7 @@ void showResumeInfo(BuildContext context, String option) {
           );
         },
       );
-    break;
+      break;
     case 'Language':
       showDialog<void>(
         context: context,
